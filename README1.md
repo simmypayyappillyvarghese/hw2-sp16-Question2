@@ -2,10 +2,13 @@ ASSIGNMENT2-QUESTION2
 
 Refer: 
  Github Link : https://github.com/simmypayyappillyvarghese/hw2-sp16-Question2
+ 
 STEPS TO SOLVE THE PROBLEM:
+
 1) In order to view the dogs created in database by navigating /dogs and so on, we need to have views for the dog and need to create a controller Dogs with action new create index show using the following command
 rails generate controller Dogs index show create new 
 This will automatically update the routes.rb with route to dogs/index,dogs/show and so on.
+
 2) Now create a Dog model
  Run the command to create model Dog with attributes name and age
 rails generate model Dog name: string age: integer
@@ -43,6 +46,7 @@ EX: dog3.save
 3.c)Once the basic Dog model is compete create the dog object entries in database to display its information through URI
 Run command >>rails console
 Create entries using dog=Dog.create(name:”Aldro”,age:7)
+
 4) To view these entries, following changes should be done
 a) In routes.rb , modify the routes as follows:
 get '/dogs',to:"dogs#index"                      #This will set the URL/dogs to index page
