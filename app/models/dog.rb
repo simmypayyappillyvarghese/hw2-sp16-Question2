@@ -1,4 +1,4 @@
 class Dog < ActiveRecord::Base
-    validates :name, presence: true
-    validates :age, presence: true
+    validates :name,presence: true
+    validates :age ,presence: true
 end

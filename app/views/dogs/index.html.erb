@@ -1,0 +1,9 @@
+<!--This index page will display all the dog objects created and displays its name and age.Also on click on create new,will be navigated tonew.html page-->
+<h1>All the Dogs in Database</h1>
+<p><% @dogs.each do |d|%>
+Dog Name: <%=d.name%> ,&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+Age: <%=d.age%>
+<br/>
+<%end%>
+</p>
+<p><%=link_to "Create New Dog" ,dogs_new_url %></p>

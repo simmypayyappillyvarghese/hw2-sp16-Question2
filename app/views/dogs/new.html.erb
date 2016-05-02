@@ -1,0 +1,8 @@
+<!--This page creates a form with textfield which is appropriate for setting the name and age of the Dog object-->
+<h1>New Dog</h1>
+<p><%=form_for (@dog) do |d|%>
+Dog Name:&nbsp <%=d.text_field :name%>    
+Age:&nbsp<%=d.text_field :age%><br/><br/>
+<%=d.submit "Create Dog"%> 
+<%end%>    
+</p>
