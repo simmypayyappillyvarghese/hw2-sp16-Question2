@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # SWE610 Ruby on Rails Homework 2
 
 ## Overall Spec
@@ -40,3 +41,7 @@ git commit -am "I'M DONE"
 ```
 
 And submit the link to your repo and add your repo git link to EMS along with brief 3-5 page paper on how you accomplished this homework assignment and steps used to accomplish this homework assignment.
+=======
+# hw2-sp16-Question2
+Assignment2-Question2-Solution
+>>>>>>> 09682b7ba7404a1c861e8d2cecf804df3ef530e3
